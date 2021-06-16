@@ -17,7 +17,7 @@ const adelgazar = (persona) => (persona.peso -= AUMENTO_PESO)
 const numMax = 10
 const numMin = 1
 const numRandom = () => Math.round(Math.random() * (numMax - numMin) + numMin)
-console.log(numRandom())
+console.log(numRandom()) //Mostrando el número random
 
 for (var i = 1; i <= 365; i++) {
 
