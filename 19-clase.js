@@ -43,6 +43,7 @@ const pasarAlturaACms = (persona) => {
     }
 }
 
+//esta función es la misma que la de arriba, pero escrito de diferente manera.
 const pasarAlturaACms2 = (persona) => ({
     ...persona,
     altura: persona.altura * 100
@@ -54,15 +55,11 @@ console.log(personas);
 console.log(personasCms); 
 
 
+//nueva manera de usar map
 const numeros = [1, 2, 3, 4, 5];
 // multiplicar por 2 este arreglo. 
 
 const multiplicados = numeros.map(x => x * 2);
 
-const mascotas = [{ nombre: 'Puchini', edad: 12, tipo: 'perro'    }, 
-                  { nombre: 'Chanchito feliz', edad: 3, tipo: 'perro'}, 
-                  { nombre: 'Pulga', edad: 10, tipo: 'perro'}, 
-                  { nombre: 'Pelusa', edad: 12, tipo: 'gato'}]
-// edad promedio
 
 
