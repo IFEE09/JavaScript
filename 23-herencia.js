@@ -5,7 +5,7 @@ function Persona(nombre, apellido, altura){
 }
 
 Persona.prototype.saludar = function() {
-    console.log('Hola mi nombre es ${this.nombre} ${this.apellido}')
+    console.log(`Hola mi nombre es ${this.nombre} ${this.apellido}`)
 }
 
 function Desarrollador(nombre, apellido) {
@@ -24,5 +24,5 @@ function heredaDe(prototipoHijo, prototipoPadre) {
 heredaDe(Desarrollador, Persona);
 
 Desarrollador.prototype.saludar = function () {
-    console.log('Hola mi nombre es ${this.nombre} ${this.apellido} y soy desarrollador');
+    console.log(`Hola mi nombre es ${this.nombre} ${this.apellido} y soy desarrollador`);
 }
